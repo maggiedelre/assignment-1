@@ -1,0 +1,21 @@
+1.) mkdir answers
+
+2.) nano answers.txt
+
+4.) ~/github/assignment-1/answers
+
+5.) ls -a
+
+6.) ls / (you would put the path of the directory that you want ls to list/
+display, regardless of whether it is in your current working directory or not)
+
+7.) rm is a dangerous command because unlike when you delete things using GUI,
+and the data goes to the recycling bin, when you use the rm command, the file is 
+"removed" irreversibly, meaning it is deleted and cannot be recovered. 
+This could lead to unintended consequences if you accidentally delete the wrong 
+file. 
+For example, if I spent all of this time typing out my answers to the questions 
+in assignment-1, and then I accidentally deleted this .txt file using rm,
+I would be pretty bummed that I have to re-do everything!
+Using rm -i can help prevent issues like this because it makes git confirm with
+you before deleting anything.
