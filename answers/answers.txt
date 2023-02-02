@@ -38,3 +38,10 @@ wc -w *.csv *.zip | sort -nr
 >	~/assignment-1/answers/results/my_script.sh *.csv $annual_aqi
 > done
 
+14.) mkdir unzipped-files/
+mv *.zip unzipped-files/
+unzip "*.zip"
+
+15.) rm -i *.zip
+
+16.) cp annual_aqi_by_county_20* ~/assignment-1/answers/results
