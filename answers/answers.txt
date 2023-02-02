@@ -23,13 +23,18 @@ you before deleting anything.
 8.) mkdir results/
 
 
-9.) nano my_script.sh
+9.) touch my_script.sh
+nano my_script.sh
 
 10.) chmod 755 my_script.sh
 
 11.) cd ~/github/assignment-1/answers
 
-12.) annual_aqi_by_cbsa_2012.csv (39870 characters)
-wc -c *.csv *.zip | sort -nr
+12.)  1258 words: annual_aqi_by_cbsa_2013.csv
+wc -w *.csv *.zip | sort -nr
 
-13.) 
+13.) $ for annual_aqi in data/
+> do
+>	~/assignment-1/answers/results/my_script.sh *.csv $annual_aqi
+> done
+
