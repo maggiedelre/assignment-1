@@ -19,3 +19,17 @@ in assignment-1, and then I accidentally deleted this .txt file using rm,
 I would be pretty bummed that I have to re-do everything!
 Using rm -i can help prevent issues like this because it makes git confirm with
 you before deleting anything.
+
+8.) mkdir results/
+
+
+9.) nano my_script.sh
+
+10.) chmod 755 my_script.sh
+
+11.) cd ~/github/assignment-1/answers
+
+12.) annual_aqi_by_cbsa_2012.csv (39870 characters)
+wc -c *.csv *.zip | sort -nr
+
+13.) 
